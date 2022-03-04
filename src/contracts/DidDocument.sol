@@ -72,10 +72,6 @@ contract DidDocument is IDidDocument {
         msg.sender.transfer({value: 0, flag: 128});
     }
 
-    function deleteDidDocument() public override onlyOwner() {
-        selfdestruct(msg.sender);
-    }
-
     function getDid() public view override returns (DIDItem) {
         return _didItem;
     }

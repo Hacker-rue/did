@@ -5,7 +5,7 @@ const { libNode } = require("@tonclient/lib-node")
 const send = require("./scripts/sendMessage")
 const api = require("./scripts/api")
 
-const addrStorage = "0:fc591b0d9200925aa7b4db8e6a8ab5515ef10818949b836c0e5b2ca26d558a35"
+const addrStorage = "0:ccf14291c229a5a9ade448c3376ff3225dc7ab59d6c516504b19a891bfe47b5a"
 const { DidDocumentContract } = require("./build/DidDocumentContract")
 const { DidStorageContract } = require("./build/DidStorageContract")
 const { ClientContract } = require("./build/ClientContract")

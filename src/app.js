@@ -21,8 +21,8 @@ async function main() {
 
     var DidStorage = new Account(DidStorageContract, {
         signer: signerKeys({
-            public: 'cf434d1286e883bb3a7e723d233c360a7047f7022a41cec4c5903b305da19ed8',
-            secret: 'a1b9dc69fe03318f517b4c74d539c7568c8131114171f4c15cc30c91493b8cd0'
+            public: '1dc76e52f749fe8a58a64f36197fea805dd2fc42dc605cf7d702f7268260a203',
+            secret: 'c1ea4e7aa9a775f49aa741488d2e61956aa39ab142c4cefc45984bb0bf2835d7'
           }),
         client: client
     })

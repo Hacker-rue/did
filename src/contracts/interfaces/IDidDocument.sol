@@ -13,8 +13,6 @@ interface IDidDocument {
 
     function newDidIssuerAddr(address issuerAddr) external;
 
-    function deleteDidDocument() external;
-
     function getDid() external view returns (DIDItem);
 
     function getInfo() external view returns (
